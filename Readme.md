@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Rey Hadson](https://up.htmlacademy.ru/htmlcss/23/user/787135).
-* Наставник: `Неизвестно`.
+* Наставник: [Виталя Игошин](https://htmlacademy.ru/profile/id353627).
 
 ---
 
