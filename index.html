@@ -9,7 +9,9 @@
       <p class="logo-header">
         <a>Техномарт</a>
       </p>
-      <!-- здесь будет форма поиска-->
+      <form class="search-page" action="" method="get">
+        <input type="search" value="Поиск:">
+      </form>
       <a href="#">Закладки</a>
       <a href="#">Корзина</a>
       <a href="#">Оформить заказ</a>
@@ -78,6 +80,24 @@
           </a>
         </p>
         <a href="#">Заблудились? Напишите нам!</a>
+       <section class="popup">
+        <div>
+          <button>Закрыть</button>
+          <img src="img/big-map.jpg" alt="Большая карта">
+        </div>
+         <form action="" method="get">
+           <fieldset class="message-form">
+             <label for="name">Ваше имя:</label>
+             <input type="text" value="Имя Фамилия" id="name">
+             <label for="mail">Ваш e-mail:</label>
+             <input type="text" value="email@example.com" id="mail">
+             <label for="message">Текст письма:</label>
+             <textarea cols="30" rows="10" id="message">В свободной форме</textarea>
+             <button>Отправить</button>
+             <button>Закрыть</button>
+           </fieldset>
+         </form>
+       </section>
       </section>
     </main>
     <footer class="main-footer">
