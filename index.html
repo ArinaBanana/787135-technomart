@@ -9,8 +9,16 @@
       <p class="logo-header">
         <a>Техномарт</a>
       </p>
-      <form class="search-page" action="" method="get">
-        <input type="search" value="Поиск:">
+      <form class="search-page" action=" https://echo.htmlacademy.ru" method="post">
+        <p>
+          <label for="search">
+          <span class="visually-hidden">Поиск по сайту</span>
+          </label>
+          <input type="search" value="Поиск:" id="search">
+        </p>
+        <p>
+          <button class="visually-hidden" type="submit">Искать</button>
+        </p>
       </form>
       <a href="#">Закладки</a>
       <a href="#">Корзина</a>
@@ -80,24 +88,37 @@
           </a>
         </p>
         <a href="#">Заблудились? Напишите нам!</a>
-       <section class="popup">
-        <div>
-          <button>Закрыть</button>
-          <img src="img/big-map.jpg" alt="Большая карта">
-        </div>
-         <form action="" method="get">
-           <fieldset class="message-form">
-             <label for="name">Ваше имя:</label>
-             <input type="text" value="Имя Фамилия" id="name">
-             <label for="mail">Ваш e-mail:</label>
-             <input type="text" value="email@example.com" id="mail">
-             <label for="message">Текст письма:</label>
-             <textarea cols="30" rows="10" id="message">В свободной форме</textarea>
-             <button>Отправить</button>
-             <button>Закрыть</button>
-           </fieldset>
-         </form>
-       </section>
+        <section class="popup-map">
+          <p>
+            <button>Закрыть</button>
+          </p>
+          <p>
+            <img src="img/big-map.jpg" alt="Большая карта">
+          </p>
+        </section>
+        <section class="popup-form">
+           <form action=" https://echo.htmlacademy.ru" method="post">
+             <fieldset class="message-form">
+               <legend>Введите Ваши контакты</legend>
+               <p>
+                 <label for="name">Ваше имя:</label>
+                 <input type="text" value="Имя Фамилия" id="name">
+               </p>
+               <p>
+                 <label for="mail">Ваш e-mail:</label>
+                 <input type="text" value="email@example.com" id="mail">
+               </p>
+               <p>
+                 <label for="message">Текст письма:</label>
+                 <textarea cols="30" rows="10" id="message">В свободной форме</textarea>
+               </p>
+               <p>
+                 <button type="submit">Отправить</button>
+                 <button>Закрыть</button>
+               </p>
+             </fieldset>
+           </form>
+        </section>
       </section>
     </main>
     <footer class="main-footer">
@@ -138,13 +159,19 @@
       <p>© 2010–2017 Компания «Техномарт»<br>Все права защищены</p>
      <ul class="social-contacts">
       <li>
-        <a href="#">Вконтакте</a>
+        <a href="#">
+          <span class="visually-hidden">Вконтакте</span>
+        </a>
       </li>
       <li>
-       <a href="#">Фейсбук</a>
-     </li>
+        <a href="#">
+          <span class="visually-hidden">Фейсбук</span>
+        </a>
+      </li>
       <li>
-        <a href="#">Инстаграм</a>
+        <a href="#">
+          <span class="visually-hidden">Инстаграм</span>
+        </a>
       </li>
      </ul>
       <p>Обратная связь: mail@htmlacademy.ru</p>
