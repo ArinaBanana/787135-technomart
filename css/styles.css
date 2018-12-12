@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  background-color: #f4f7f9;
+}
+
+.main-header a {
+  color: #000000;
+}
+
+.main-header-top,
+.main-navigation {
+  background-color: #293449;
+  color: #ffffff;
+}
+
+.main-header-top {
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.main-header-top a,
+.main-navigation a {
+  color: #ffffff;
+}
+
+.logo-header {
+  background-color: #ee3643;
+}
+
+.order {
+  background-color: #63a63e;
+}
+
+input[type="search"]:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+input[type="search"]::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+input[type="search"]::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+input[type="search"]:-moz-placeholder {
+  color: #ffffff;
+}
+
+input[type="search"]::-moz-placeholder {
+  color: #ffffff;
+}
+
+input[type="search"] {
+  background-color: #293449;
+  border: none;
+}
+
+.description {
+  color: #ee3643;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.number{
+  color: #ee3643;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.address {
+  color: #293449;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.auth-navigation a {
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.user-navigation a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+.popup-form,
+.popup-map,
+.popup-notification,
+.visually-hidden {
+  display: none;
+}
