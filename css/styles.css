@@ -40,49 +40,81 @@ a {
   background-color: #ee3643;
 }
 
+.logo-header:hover {
+  background-color: #ca2c37;
+}
+
+.logo-header:active {
+  background-color: #ba2732;
+}
+
 .order {
   background-color: #63a63e;
 }
 
-input[type="search"]:-ms-input-placeholder {
-  color: #ffffff;
+.order:hover {
+  background-color: #5fbb2d;
 }
 
-input[type="search"]::-ms-input-placeholder {
-  color: #ffffff;
+.order:active {
+  background-color: #518534;
 }
 
-input[type="search"]::-webkit-input-placeholder {
-  color: #ffffff;
+.marker {
+  background-color: #293449;
 }
 
-input[type="search"]:-moz-placeholder {
-  color: #ffffff;
+.marker:hover {
+  background-color: #212a3a;
 }
 
-input[type="search"]::-moz-placeholder {
-  color: #ffffff;
+.marker:active {
+  background-color: #161d29;
 }
 
-input[type="search"] {
+.basket {
+  background-color: #293449
+}
+
+.basket:hover {
+  background-color: #212a3a;
+}
+
+.basket:active {
+  background-color: #161d29;
+}
+
+.search-page {
+  background-color: #293449;
+}
+
+.search-page:hover {
+  background-color: #212a3a;
+}
+
+input[type="text"] {
   background-color: #293449;
   border: none;
 }
 
-.description {
+input[type="text"]::placeholder {
+  color: white;
+}
+
+.main-header-description {
   color: #ee3643;
   font-style: italic;
   font-size: 16px;
   line-height: 23px;
 }
 
-.number{
+.main-header-number{
   color: #ee3643;
   font-size: 21px;
   line-height: 21px;
 }
 
-.address {
+.main-header-address {
   color: #293449;
   font-size: 14px;
   line-height: 24px;

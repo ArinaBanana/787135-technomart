@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,400i,700&amp;subset=cyrillic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&amp;subset=cyrillic">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
@@ -13,32 +13,34 @@
         <p class="logo-header">
           <a>Техномарт</a>
         </p>
-        <form class="search-page" action="https://echo.htmlacademy.ru" method="get">
-          <p>
-            <label for="search">
-            <span class="visually-hidden">Поиск по сайту</span>
-            </label>
-            <input type="search" placeholder="Поиск:" id="search" name="user-search">
-          </p>
-          <p>
-            <button class="visually-hidden" type="submit">Искать</button>
-          </p>
-        </form>
-        <div>
+        <div class="search-page">
+          <form action="https://echo.htmlacademy.ru" method="get">
+            <p>
+              <label for="search">
+              <span class="visually-hidden">Поиск по сайту</span>
+              </label>
+              <input type="text" placeholder="Поиск:" id="search" name="user-search">
+            </p>
+            <p>
+              <button class="visually-hidden" type="submit">Искать</button>
+            </p>
+          </form>
+        </div>
+        <div class="marker">
           <a href="#">Закладки: 0</a>
         </div>
-        <div>
+        <div class="basket">
           <a href="#">Корзина: 0</a>
         </div>
         <div class="order">
           <a href="#">Оформить заказ</a>
         </div>
       </div>
-      <p class="description">
+      <p class="main-header-description">
         <b>Интернет-магазин строительных материалов и инструментов для ремонта</b>
       </p>
-      <p class="number">+7 (812) 555-05-55</p>
-      <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <p class="main-header-number">+7 (812) 555-05-55</p>
+      <p class="main-header-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
       <ul class="auth-navigation">
         <li>
           <a href="#">Войти</a>
