@@ -20,8 +20,7 @@ a {
   color: #000000;
 }
 
-.main-header-top,
-.main-navigation {
+.main-header-top {
   background-color: #293449;
   color: #ffffff;
 }
@@ -34,6 +33,8 @@ a {
 .main-header-top a,
 .main-navigation a {
   color: #ffffff;
+  display: block;
+  width: 100%;
 }
 
 .logo-header {
@@ -84,12 +85,17 @@ a {
   background-color: #161d29;
 }
 
-.search-page {
+.search-page input {
   background-color: #293449;
 }
 
-.search-page:hover {
+.search-page input:hover {
   background-color: #212a3a;
+}
+
+.search-page input:focus {
+  background-color: #ffffff;
+  color: #000000;
 }
 
 input[type="text"] {
@@ -125,11 +131,51 @@ input[type="text"]::placeholder {
   line-height: 21px;
 }
 
+.auth-navigation-login a:hover {
+  color: #ee3643;
+}
+
+.auth-navigation-login a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
 .user-navigation a {
   font-size: 16px;
   line-height: 18px;
   color: #32425c;
   text-decoration: underline;
+}
+
+.user-navigation a:hover {
+  color: #ee3643;
+}
+
+.user-navigation a:active {
+  color: rgba(50, 66, 92, 0.3);
+}
+
+.user-info a:hover {
+  color: #000000;
+}
+
+.user-info a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.main-navigation {
+  background-color: #32425c;
+}
+
+.main-navigation li:hover {
+  background-color: #293449;
+}
+
+.main-navigation li:active {
+  background-color: #1d2739;
+}
+
+.main-navigation li:active a {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .popup-form,
