@@ -49,15 +49,15 @@ a {
   background-color: #ba2732;
 }
 
-.order {
+.checkout {
   background-color: #63a63e;
 }
 
-.order:hover {
+.checkout:hover {
   background-color: #5fbb2d;
 }
 
-.order:active {
+.checkout:active {
   background-color: #518534;
 }
 
@@ -85,8 +85,9 @@ a {
   background-color: #161d29;
 }
 
-.search-page input {
+.search-page input[type="text"] {
   background-color: #293449;
+  border: none;
 }
 
 .search-page input:hover {
@@ -98,12 +99,7 @@ a {
   color: #000000;
 }
 
-input[type="text"] {
-  background-color: #293449;
-  border: none;
-}
-
-input[type="text"]::placeholder {
+.search-page input[type="text"]::placeholder {
   color: white;
 }
 
@@ -126,39 +122,39 @@ input[type="text"]::placeholder {
   line-height: 24px;
 }
 
-.auth-navigation a {
+.user-navigation a {
   font-size: 21px;
   line-height: 21px;
 }
 
-.auth-navigation-login a:hover {
+.user-navigation-login a:hover {
   color: #ee3643;
 }
 
-.auth-navigation-login a:active {
+.user-navigation-login a:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.user-navigation a {
+.user-navigation-item a {
   font-size: 16px;
   line-height: 18px;
   color: #32425c;
   text-decoration: underline;
 }
 
-.user-navigation a:hover {
+.user-navigation-item a:hover {
   color: #ee3643;
 }
 
-.user-navigation a:active {
+.user-navigation-item a:active {
   color: rgba(50, 66, 92, 0.3);
 }
 
-.user-info a:hover {
+.user-navigation-info a:hover {
   color: #000000;
 }
 
-.user-info a:active {
+.user-navigation-info a:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -166,16 +162,85 @@ input[type="text"]::placeholder {
   background-color: #32425c;
 }
 
-.main-navigation li:hover {
+.main-navigation-item:hover {
   background-color: #293449;
 }
 
-.main-navigation li:active {
+.main-navigation-item:active {
   background-color: #1d2739;
 }
 
-.main-navigation li:active a {
+.main-navigation-item:active a {
   color: rgba(255, 255, 255, 0.5);
+}
+
+.about-title,
+.contacts-title {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.about-text,
+.contacts-text {
+  font-family: "PT Sans", "Arial", sans-serif;
+}
+
+.delivery-company-item {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.button {
+  background-color: #ee3643;
+
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.main-title {
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+}
+
+.title-block {
+  width: 100%;
+  background-color: #f9f5f0;
+}
+
+.title-block--catalog {
+  background-color: #f2f6f8;
+}
+
+.breadcrumbs-item {
+  font-size: 13px;
+  line-height: 18px;
+  font-family: "PT Sans", "Arial", sans-serif;
+}
+
+.breadcrumbs-item a {
+  color: #000000;
+}
+
+.product-filter-item {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.product-title {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-style: bold;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.product-price {
+  font-family: "PT Sans", "Arial", sans-serif;
+  color: #ffffff;
+  background-color: #ee3643;
 }
 
 .popup-form,
