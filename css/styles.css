@@ -258,6 +258,11 @@ a {
   background-color: #f2f6f8;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .breadcrumbs-item {
   font-size: 13px;
   line-height: 18px;
