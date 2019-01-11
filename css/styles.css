@@ -7,7 +7,6 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -28,37 +27,52 @@ a {
   display: flex;
   flex-direction: column;
 }
-
 .main-header a {
   color: #000000;
 }
-
 .main-header-top {
   background-color: #293449;
   color: #ffffff;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.main-header-top {
   font-size: 17px;
   line-height: 18px;
-}
 
-.main-header-top a,
-.main-navigation a {
-  color: #ffffff;
-  display: block;
-  width: 100%;
-}
-
-.main-navigation {
-  list-style: none;
   display: flex;
   flex-direction: row;
+  height: 42px;
 }
+.main-header-top a {
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+}
+.marker,
+.basket,
+.checkout {
+  width: 150px;
+}
+.main-navigation {
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 60px;
+  width: 940px;
+}
+.main-navigation a {
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+}
+
 
 .logo-header {
   background-color: #ee3643;
@@ -68,50 +82,46 @@ a {
   width: 220px;
   height: 47px;
 }
-
 .logo-header:hover {
   background-color: #ca2c37;
 }
-
 .logo-header:active {
   background-color: #ba2732;
 }
 
+
 .checkout {
   background-color: #63a63e;
 }
-
 .checkout:hover {
   background-color: #5fbb2d;
 }
-
 .checkout:active {
   background-color: #518534;
 }
 
+
 .marker {
   background-color: #293449;
 }
-
 .marker:hover {
   background-color: #212a3a;
 }
-
 .marker:active {
   background-color: #161d29;
 }
 
+
 .basket {
   background-color: #293449
 }
-
 .basket:hover {
   background-color: #212a3a;
 }
-
 .basket:active {
   background-color: #161d29;
 }
+
 
 .search-page input[type="text"] {
   background-color: #293449;
@@ -121,12 +131,10 @@ a {
 .search-page input:hover {
   background-color: #212a3a;
 }
-
 .search-page input:focus {
   background-color: #ffffff;
   color: #000000;
 }
-
 .search-page input[type="text"]::placeholder {
   color: white;
 }
@@ -173,38 +181,33 @@ a {
   color: #32425c;
   text-decoration: underline;
 }
-
 .user-navigation-item a:hover {
   color: #ee3643;
 }
-
 .user-navigation-item a:active {
   color: rgba(50, 66, 92, 0.3);
 }
-
 .user-navigation-info a:hover {
   color: #000000;
 }
-
 .user-navigation-info a:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
+
 .main-navigation {
   background-color: #32425c;
 }
-
 .main-navigation-item:hover {
   background-color: #293449;
 }
-
 .main-navigation-item:active {
   background-color: #1d2739;
 }
-
 .main-navigation-item:active a {
   color: rgba(255, 255, 255, 0.5);
 }
+
 
 .about-title {
   font-size: 30px;
@@ -212,18 +215,15 @@ a {
   font-weight: normal;
   text-transform: uppercase;
 }
-
 .contacts-title {
   font-size: 30px;
   line-height: 30px;
   font-weight: normal;
   text-transform: uppercase;
 }
-
 .about-text {
   font-family: "PT Sans", "Arial", sans-serif;
 }
-
 .contacts-text {
   font-family: "PT Sans", "Arial", sans-serif;
 }
