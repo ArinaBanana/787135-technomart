@@ -89,14 +89,14 @@
           Перфораторы
         </li>
       </ul>
-      <div class="title-block title-block--catalog">
+      <div class="title-block title-block-catalog">
         <h1 class="main-title">Перфораторы</h1>
       </div>
       <section class="product-filter">
-        <h2 class="filter-title">Фильтр</h2>
+        <h2>Фильтр</h2>
         <form action="https://echo.htmlacademy.ru" method="get" class="product-filter-form">
           <fieldset>
-            <legend>Производители:</legend>
+            <legend class="filter-title">Производители:</legend>
             <ul>
               <li class="product-filter-item">
                 <input type="checkbox" id="filter-bosch" name="filter-bosch-perforator" checked>
@@ -121,7 +121,7 @@
             </ul>
           </fieldset>
           <fieldset>
-            <legend>Питание:</legend>
+            <legend class="filter-title">Питание:</legend>
             <ul>
               <li class="product-filter-item">
                 <input type="radio" id="filter-battery-power" name="filter-power" checked>
@@ -249,59 +249,65 @@
     </main>
     <footer class="main-footer">
       <p class="logo-footer">Техномарт</p>
-      <ul>
-        <li>
+      <ul class="footer-navigation">
+        <li class="footer-navigation-item">
           <a href="#">Компания</a>
         </li>
-        <li>
+        <li class="footer-navigation-item">
           <a href="#">Новости</a>
         </li>
-        <li>
+        <li class="footer-navigation-item">
           <a href="#">Каталог</a>
         </li>
-        <li>
+        <li class="footer-navigation-item">
           <a href="#">Доставка</a>
         </li>
-        <li>
+        <li class="footer-navigation-item">
           <a href="#">Контакты</a>
         </li>
       </ul>
-      <p>+7 (812) 555-05-55</p>
-      <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-      <ul>
-        <li>
+      <p class="footer-number">+7 (812) 555-05-55</p>
+      <p class="footer-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <ul class="add-navigation">
+        <li class="add-navigation-item">
           <a href="#">Материалы</a>
         </li>
-        <li>
+        <li class="add-navigation-item">
           <a href="#">Техника</a>
         </li>
-        <li>
+        <li class="add-navigation-item">
           <a href="#">Инструмент</a>
         </li>
-        <li>
+        <li class="add-navigation-item">
           <a href="#">Спецпредложения</a>
         </li>
       </ul>
-      <p>© 2010–2017 Компания «Техномарт»<br>Все права защищены</p>
-      <ul class="social-contacts">
-        <li>
-          <a href="#">
-            <span class="visually-hidden">Вконтакте</span>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span class="visually-hidden">Фейсбук</span>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span class="visually-hidden">Инстаграм</span>
-          </a>
-        </li>
-      </ul>
-      <p>Обратная связь: mail@htmlacademy.ru</p>
-      <p>Разработано — <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
+      <div class="footer-bottom">
+        <p>© 2010–2017 Компания «Техномарт»<br>Все права защищены</p>
+        <ul class="social-contacts">
+          <li>
+            <a href="#">
+              <span class="visually-hidden">Вконтакте</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="visually-hidden">Фейсбук</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="visually-hidden">Инстаграм</span>
+            </a>
+          </li>
+        </ul>
+        <p class="copyright">Обратная связь:
+          <a href="#">mail@htmlacademy.ru</a>
+        </p>
+        <p class="copyright">Разработано —
+          <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+        </p>
+      </div>
     </footer>
   </body>
 </html>
