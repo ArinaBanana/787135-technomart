@@ -239,12 +239,14 @@ a {
   color: #ffffff;
   font-size: 14px;
   line-height: 18px;
+  text-transform: uppercase;
 }
 
 .main-title {
   font-size: 30px;
   line-height: 30px;
   color: #32425c;
+  text-transform: uppercase;
 }
 
 .title-block {
@@ -270,6 +272,7 @@ a {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 20px;
+  text-transform: uppercase;
 }
 
 .product-title {
