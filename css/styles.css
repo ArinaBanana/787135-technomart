@@ -24,6 +24,9 @@ a {
 
 .main-header {
   background-color: #f4f7f9;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .main-header a {
@@ -33,6 +36,10 @@ a {
 .main-header-top {
   background-color: #293449;
   color: #ffffff;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .main-header-top {
@@ -47,8 +54,19 @@ a {
   width: 100%;
 }
 
+.main-navigation {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
 .logo-header {
   background-color: #ee3643;
+  text-transform: uppercase;
+  text-align: center;
+
+  width: 220px;
+  height: 47px;
 }
 
 .logo-header:hover {
