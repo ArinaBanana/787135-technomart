@@ -206,14 +206,24 @@ a {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.about-title,
+.about-title {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
 .contacts-title {
   font-size: 30px;
   line-height: 30px;
   font-weight: normal;
+  text-transform: uppercase;
 }
 
-.about-text,
+.about-text {
+  font-family: "PT Sans", "Arial", sans-serif;
+}
+
 .contacts-text {
   font-family: "PT Sans", "Arial", sans-serif;
 }
