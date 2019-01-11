@@ -150,6 +150,10 @@ a {
   line-height: 24px;
 }
 
+.user-navigation {
+  list-style: none;
+}
+
 .user-navigation a {
   font-size: 21px;
   line-height: 21px;
@@ -269,6 +273,18 @@ a {
   font-family: "PT Sans", "Arial", sans-serif;
   color: #ffffff;
   background-color: #ee3643;
+}
+
+.footer-navigation {
+  list-style: none;
+}
+
+.add-navigation {
+  list-style: none;
+}
+
+.social-contacts {
+  list-style: none;
 }
 
 .popup-form,
