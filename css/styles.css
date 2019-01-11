@@ -21,6 +21,15 @@ a {
   text-decoration: none;
 }
 
+
+.container {
+  padding: 0 130px;
+}
+.flex-container {
+  display: flex;
+}
+
+
 .main-header {
   background-color: #f4f7f9;
 
@@ -256,11 +265,6 @@ a {
 
 .title-block-catalog {
   background-color: #f2f6f8;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
 }
 
 .breadcrumbs-item {
