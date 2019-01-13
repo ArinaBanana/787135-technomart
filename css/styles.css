@@ -24,7 +24,8 @@ a {
 
 
 .container {
-  padding: 0 130px;
+  width: 940px;
+  margin: 0 auto;
 }
 .flex-container {
   display: flex;
@@ -41,14 +42,19 @@ a {
 .main-header a {
   color: #000000;
 }
-.main-header-top {
+.main-header-background {
   background-color: #293449;
+}
+.main-header-top {
+
   color: #ffffff;
   font-size: 17px;
   line-height: 18px;
 
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+
   height: 42px;
 }
 .main-header-top a {
@@ -65,23 +71,33 @@ a {
 .checkout {
   width: 150px;
 }
+
+
 .main-navigation {
   list-style: none;
 
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: stretch;
   height: 60px;
-  width: 940px;
+
+  margin: 0;
+  padding: 0;
+}
+.main-navigation-item {
+  display: block;
+  width: 100%;
 }
 .main-navigation a {
   color: #ffffff;
 
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
-  padding: 0 20px;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -185,7 +201,7 @@ a {
   padding: 10px;
   width: 267px;
   height: 45px;
-  margin: 0 0 10px;
+  margin: 0 0 10px 0;
 }
 .main-header-address {
   color: #32425c;
@@ -198,7 +214,6 @@ a {
 
 .user-navigation {
   list-style: none;
-
   display: flex;
 }
 .user-navigation a {
@@ -236,6 +251,17 @@ a {
 }
 
 
+.user-navigation-items {
+  list-style: none;
+
+  display: flex;
+  margin: 10px 0 0;
+  padding: 0;
+}
+.user-navigation-item,
+.user-navigation-divider {
+  padding-left: 18px;
+}
 .user-navigation-item a {
   font-size: 16px;
   line-height: 18px;
@@ -247,6 +273,20 @@ a {
 }
 .user-navigation-item a:active {
   color: rgba(50, 66, 92, 0.3);
+}
+.user-navigation-info {
+  background-color: #ffffff;
+
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.user-navigation-info a {
+  font-size: 21px;
+  line-height: 21px;
+
+  padding: 14px 69px 11px 47px;
+  width: 299px;
+  height: 45px;
 }
 .user-navigation-info a:hover {
   color: #000000;
