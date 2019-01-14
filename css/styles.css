@@ -309,13 +309,16 @@ a {
 }
 
 .about {
-  margin-right: 120px;
+  margin: 82px 120px 86px 0;
 }
 .about-title {
   font-size: 30px;
   line-height: 30px;
   font-weight: normal;
   text-transform: uppercase;
+}
+.contacts {
+  margin: 82px 0 86px;
 }
 .contacts-title {
   font-size: 30px;
@@ -328,20 +331,49 @@ a {
 }
 .contacts-text {
   font-family: "PT Sans", "Arial", sans-serif;
+
+  margin-bottom: 36px;
 }
 .delivery-company-item {
   font-size: 18px;
   line-height: 20px;
+
+  margin-bottom: 23px;
+}
+.delivery-company-item:last-child {
+  margin-bottom: 37px;
+}
+.contacts-map {
+  margin-bottom: 40px;
 }
 
-
-.button-red {
+.button-red-container {
   background-color: #ee3643;
+  text-align: center;
 
+  width: 220px;
+  height: 38px;
+}
+.button-red-container:hover {
+  background-color: #ca2c37;
+}
+.button-red-container:active {
+  background-color: #ba2732;
+}
+.button-red {
   color: #ffffff;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.button-red-full-width {
+  width: 100%;
 }
 
 
