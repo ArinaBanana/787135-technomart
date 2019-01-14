@@ -46,7 +46,6 @@ a {
   background-color: #293449;
 }
 .main-header-top {
-
   color: #ffffff;
   font-size: 17px;
   line-height: 18px;
@@ -309,7 +308,6 @@ a {
   color: rgba(255, 255, 255, 0.5);
 }
 
-
 .about-title {
   font-size: 30px;
   line-height: 30px;
@@ -328,7 +326,6 @@ a {
 .contacts-text {
   font-family: "PT Sans", "Arial", sans-serif;
 }
-
 .delivery-company-item {
   font-size: 18px;
   line-height: 20px;
@@ -343,31 +340,31 @@ a {
   text-transform: uppercase;
 }
 
+
 .main-title {
   font-size: 30px;
   line-height: 30px;
   color: #32425c;
   text-transform: uppercase;
 }
-
 .title-block {
   width: 100%;
   background-color: #f9f5f0;
 }
-
 .title-block-catalog {
   background-color: #f2f6f8;
 }
+
 
 .breadcrumbs-item {
   font-size: 13px;
   line-height: 18px;
   font-family: "PT Sans", "Arial", sans-serif;
 }
-
 .breadcrumbs-item a {
   color: #000000;
 }
+
 
 .product-filter-item {
   font-family: "PT Sans", "Arial", sans-serif;
@@ -375,20 +372,17 @@ a {
   line-height: 20px;
   text-transform: uppercase;
 }
-
 .product-title {
   font-family: "PT Sans", "Arial", sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
 }
-
 .product-price {
   font-family: "PT Sans", "Arial", sans-serif;
   color: #ffffff;
   background-color: #ee3643;
 }
-
 .filter-title {
   font-family: "PT Sans", "Arial", sans-serif;
   font-weight: bold;
@@ -397,33 +391,32 @@ a {
   line-height: 30px;
 }
 
+
 .main-footer {
   background-color: #32425c;
   font-size: 18px;
   line-height: 24px;
   color: #f1f5f7;
-
   display: flex;
   flex-direction: row;
 }
-
 .main-footer a {
   color: #f1f5f7;
   font-size: 18px;
   line-height: 24px;
 }
-
 .footer-bottom {
   background-color: #293449;
   color: #ffffff;
   font-size: 16px;
   line-height: 18px;
+
 }
+
 
 .logo-footer {
   background-color: #ee3643;
   text-transform: uppercase;
-}
 
 .logo-footer:hover {
   background-color: #ca2c37;
@@ -435,15 +428,17 @@ a {
 
 .footer-navigation {
   list-style: none;
-}
 
 .add-navigation {
   list-style: none;
+
 }
+
 
 .social-contacts {
   list-style: none;
 }
+
 
 .add-navigation-item a {
   color: #ffd180;
