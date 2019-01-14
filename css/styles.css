@@ -308,6 +308,9 @@ a {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.about {
+  margin-right: 120px;
+}
 .about-title {
   font-size: 30px;
   line-height: 30px;
@@ -331,7 +334,8 @@ a {
   line-height: 20px;
 }
 
-.button {
+
+.button-red {
   background-color: #ee3643;
 
   color: #ffffff;
@@ -397,44 +401,77 @@ a {
   font-size: 18px;
   line-height: 24px;
   color: #f1f5f7;
-  display: flex;
-  flex-direction: row;
 }
 .main-footer a {
   color: #f1f5f7;
   font-size: 18px;
   line-height: 24px;
 }
-.footer-bottom {
+.main-footer-top {
+  display: flex;
+  align-items: flex-end;
+}
+.main-footer-middle {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 53px;
+}
+.main-footer-background {
   background-color: #293449;
+}
+.main-footer-bottom {
   color: #ffffff;
   font-size: 16px;
   line-height: 18px;
 
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 107px;
 }
 
 
 .logo-footer {
   background-color: #ee3643;
   text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
 
-.logo-footer:hover {
-  background-color: #ca2c37;
+  width: 220px;
+  height: 68px;
+  padding: 20px 41px;
 }
 
-.logo-footer:active {
-  background-color: #ba2732;
-}
 
 .footer-navigation {
   list-style: none;
 
+  display: flex;
+  width: 100%;
+  padding-left: 173px;
+  margin: 0 0 13px;
+  justify-content: space-between;
+}
 .add-navigation {
   list-style: none;
 
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 0 91px;
 }
 
 
+.main-footer-contacts{
+  font-size: 18px;
+  color: #f3f7f9;
+}
+.main-footer-contacts p {
+  margin: 0;
+  white-space: nowrap;
+}
 .social-contacts {
   list-style: none;
 }
@@ -443,35 +480,33 @@ a {
 .add-navigation-item a {
   color: #ffd180;
 }
-
 .add-navigation-item a:hover {
   text-decoration: underline;
 }
-
 .add-navigation-item a:active {
   color: rgba(255, 209, 128, 0.5);
 }
 
+
 .footer-navigation-item a:hover {
   text-decoration: underline;
 }
-
 .footer-navigation-item a:active {
   color: rgba(241, 245, 247, 0.5)
 }
 
+
 .copyright a {
   color: #ffd180;
 }
-
 .copyright a:hover {
   text-decoration: underline;
 }
-
 .copyright a:active {
   color: #ee3643;
   text-decoration: none;
 }
+
 
 .popup-form,
 .popup-map,
