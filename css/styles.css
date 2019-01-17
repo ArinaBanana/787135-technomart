@@ -535,6 +535,9 @@ a {
   height: 318px;
   position: relative;
 }
+.product:hover {
+  box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
 .product-title {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
@@ -543,7 +546,7 @@ a {
 
   min-height: 40px;
   padding:0 25px;
-  margin: 0 0 15px;
+  margin: 10px 0 15px;
 }
 .product-prices {
   position: absolute;
@@ -558,6 +561,7 @@ a {
   line-height: 18px;
   color: #ffffff;
   background-color: #ee3643;
+
   display: inline-block;
   position: relative;
   margin: 0 auto;
@@ -572,6 +576,7 @@ a {
   top: 0px;
   width: 0;
   height: 0;
+
   border-top: 19px solid transparent;
   border-left: 19px solid #ee3643;
   border-bottom: 19px solid transparent;
@@ -587,7 +592,6 @@ a {
   min-height:20px;
   margin-top:15px;
   margin-bottom:10px;
-
 }
 .product .flag {
   position: absolute;
@@ -603,10 +607,62 @@ a {
   background: url("../img/new-flag.png") no-repeat 0 0;
 }
 .product .actions {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: center;
+
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 218px;
+  height: 165px;
+  padding: 40px 0;
+  background-color: rgba(255,255,255,0.9);
+  z-index: 10;
+}
+.product .actions .action-buy,
+.product .actions .action-bookmark {
+  color: #ffffff;
+
+  display:block;
+  width:129px;
+  margin: 0 auto 7px;
+  padding: 7px 0;
+  border: 3px solid #63a63e;
+  border-bottom-color:#367315;
+  background-color:#63a63e;
+}
+.product .actions .action-bookmark {
+  color:#32425c;
+  background:white;
+  border-bottom-color:#63a63e;
+}
+.product .actions .action-buy:hover {
+  background-color: #5fbb2d;
+  border-color: #5fbb2d;
+  border-bottom-color: #367315;
+}
+.product .actions .action-buy:active {
+  background-color: #518534;
+  border-color: #518534;
+}
+.product .actions .action-bookmark:hover {
+  border-color: #32425c;
+}
+.product .actions .action-bookmark:active {
+  opacity: 0.3;
+}
+.product .actions {
   display: none;
 }
-.product .product-image img {
+.product:hover .actions {
+  display: block;
+}
+.product .product-image {
   max-width: 100%;
+  vertical-align: middle;
 }
 
 
