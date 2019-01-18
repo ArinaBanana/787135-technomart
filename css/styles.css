@@ -315,6 +315,7 @@ img {
 
 .about {
   margin: 82px 120px 86px 0;
+  width: 519px;
 }
 .about-title {
   font-size: 30px;
@@ -350,6 +351,10 @@ img {
 }
 .contacts-map {
   margin-bottom: 40px;
+}
+.contacts-map-image {
+  width: 300px;
+  height: 158px;
 }
 
 
@@ -424,15 +429,6 @@ img {
 }
 
 
-.product-filter {
-  margin-right: 20px;
-}
-.product-filter-item {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 15px;
-  line-height: 20px;
-  text-transform: uppercase;
-}
 .product-filter-title-container {
   background-color: #f9f5f0;
 
@@ -452,15 +448,49 @@ img {
 }
 .product-filter-items {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
+.product-filter {
+  margin-right: 20px;
+}
+.product-filter fieldset {
+  padding: 0;
+  margin: 0;
+  width: 220px;
 
-
+  border: none;
+}
+.fieldset-border {
+  border-top: 1px solid #e5e5e5;
+  margin-top: 207px;
+}
+.indent {
+  margin-top: 0;
+}
+.product-filter-item {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.product-filter-item label {
+  display: inline-block;
+  margin: 0 0 23px 10px;
+}
+.product-filter-item input[type="checkbox"],
+.product-filter-item input[type="radio"] {
+  display: inline-block;
+}
 .filter-legend {
   font-family: "PT Sans", "Arial", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 17px;
   line-height: 30px;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 
