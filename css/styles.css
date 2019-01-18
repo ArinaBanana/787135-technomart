@@ -494,6 +494,48 @@ img {
 }
 
 
+.filter-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  margin: 10px 0 0 20px;
+}
+.filter-checkbox + label {
+  position: relative;
+  padding: 0 0 0 20px;
+  cursor: pointer;
+}
+.filter-checkbox + label::before {
+  content: " ";
+  position: absolute;
+  top: -4px;
+  left: -10px;
+  width: 23px;
+  height: 23px;
+
+  background: url("../img/checkbox-off-b5.png") no-repeat;
+}
+.filter-checkbox:hover + label::before {
+  background: url("../img/checkbox-off-c5.png") no-repeat;
+}
+.filter-checkbox:checked + label::before {
+  background: url("../img/checkbox-on-c5.png") no-repeat;
+  width: 27px;
+}
+.filter-checkbox:checked:hover + label::before {
+  background: url("../img/checkbox-on-b5.png") no-repeat;
+}
+.filter-checkbox:disabled + label::before {
+  background: url("../img/checkbox-off-b5.png") no-repeat;
+  opacity: 0.4;
+}
+.filter-checkbox:checked:disabled + label::before {
+  background: url("../img/checkbox-on-c5.png") no-repeat;
+  width: 27px;
+  opacity: 0.4;
+}
+
+
 .catalog-sorting-container {
   background-color: #f7f3ec;
 
