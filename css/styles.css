@@ -529,9 +529,55 @@ img {
   background: url("../img/checkbox-off-b5.png") no-repeat;
   opacity: 0.4;
 }
+.filter-checkbox:disabled + label {
+  color: rgba(0, 0, 0, 0.4);
+}
 .filter-checkbox:checked:disabled + label::before {
   background: url("../img/checkbox-on-c5.png") no-repeat;
   width: 27px;
+  opacity: 0.4;
+}
+
+
+.radio-button {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  margin: 10px 0 0 20px;
+}
+.radio-button + label {
+  position: relative;
+  padding: 0 0 0 20px;
+  cursor: pointer;
+}
+.radio-button + label::before {
+  content: " ";
+  position: absolute;
+  top: -4px;
+  left: -10px;
+  width: 25px;
+  height: 25px;
+
+  background: url("../img/radio-off-c5.png") no-repeat;
+}
+.radio-button:hover + label::before {
+  background: url("../img/radio-off-b5.png") no-repeat;
+}
+.radio-button:checked + label::before {
+  background: url("../img/radio-on-c5.png");
+}
+.radio-button:checked:hover + label::before {
+  background: url("../img/radio-on-b5.png") no-repeat;
+}
+.radio-button:disabled + label::before {
+  background: url("../img/radio-off-c5.png");
+  opacity: 0.4;
+}
+.radio-button:disabled + label {
+  color: rgba(0, 0, 0, 0.4);
+}
+.radio-button:checked:disabled + label::before {
+  background: url("../img/radio-on-c5.png");
   opacity: 0.4;
 }
 
