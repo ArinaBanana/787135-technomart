@@ -86,11 +86,6 @@ input[type="radio"].visually-hidden {
   height: 100%;
   padding: 0 20px;
 }
-.marker,
-.basket,
-.checkout {
-  width: 150px;
-}
 
 
 .main-navigation {
@@ -139,6 +134,7 @@ input[type="radio"].visually-hidden {
 
 .checkout {
   background-color: #63a63e;
+  width: 150px;
 }
 .checkout:hover {
   background-color: #5fbb2d;
@@ -150,6 +146,13 @@ input[type="radio"].visually-hidden {
 
 .marker {
   background-color: #293449;
+
+  width: 150px;
+  position: relative;
+  padding-left: 17px;
+}
+.marker a {
+  padding-left: 31px;
 }
 .marker:hover {
   background-color: #212a3a;
@@ -157,16 +160,57 @@ input[type="radio"].visually-hidden {
 .marker:active {
   background-color: #161d29;
 }
+.marker::before {
+  content: "";
+
+  position: absolute;
+  top: 12px;
+  left: 17px;
+  width: 14px;
+  height: 15px;
+
+  background: url("../img/icon-bookmark.png");
+  opacity: 0.3;
+}
+.marker:hover::before {
+  opacity: 1;
+}
+.marker:active::before {
+  opacity: 0.5;
+}
 
 
 .basket {
-  background-color: #293449
+  background-color: #293449;
+  width: 150px;
+  position: relative;
+  padding-left: 18px;
+}
+.basket a {
+  padding-left: 33px;
 }
 .basket:hover {
   background-color: #212a3a;
 }
 .basket:active {
   background-color: #161d29;
+}
+.basket::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 18px;
+  width: 15px;
+  height: 15px;
+
+  background: url("../img/cart-icon.png");
+  opacity: 0.3;
+}
+.basket:hover::before {
+  opacity: 1;
+}
+.basket:active::before {
+  opacity: 0.5;
 }
 
 
