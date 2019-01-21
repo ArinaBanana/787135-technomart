@@ -910,6 +910,27 @@ input[type="radio"].visually-hidden {
   vertical-align: middle;
 }
 
+.about-perforators {
+  background-color: #f4f7f9;
+}
+.about-perforators-content {
+  padding: 67px 2px 73px 0;
+}
+.about-perforators-title {
+  font-size: 30px;
+  line-height: 30px;
+
+  padding: 0;
+  margin: 0 0 35px;
+}
+.about-perforators-text {
+  font-family: "PT Sans", "Arial", sans-serif;
+  text-align: justify;
+
+  padding: 0;
+  margin: 0;
+}
+
 
 .main-footer {
   background-color: #32425c;
