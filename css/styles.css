@@ -390,12 +390,13 @@ input[type="radio"].visually-hidden {
   color: rgba(50, 66, 92, 0.3);
 }
 .user-navigation-info {
+  position: relative;
   background-color: #ffffff;
 
   margin-bottom: 10px;
   padding: 14px 69px 11px 47px;
 }
-.user-navigation-info a {
+.user-navigation-info .user {
   font-size: 21px;
   line-height: 21px;
 
@@ -404,7 +405,7 @@ input[type="radio"].visually-hidden {
 
   position: relative;
 }
-.user-navigation-info a::before {
+.user-navigation-info .user::before {
   content: "";
 
   position: absolute;
@@ -415,17 +416,39 @@ input[type="radio"].visually-hidden {
 
   background: url("../img/icon-user.png") no-repeat;
 }
-.user-navigation-info a:hover::before {
+.user-navigation-info .user:hover::before {
   background: url("../img/icon-user-blue.png") no-repeat;
 }
-.user-navigation-info a:active::before {
+.user-navigation-info .user:active::before {
   background: url("../img/icon-user.png") no-repeat;
 }
-.user-navigation-info a:hover {
+.user-navigation-info .user:hover {
   color: #000000;
 }
-.user-navigation-info a:active {
+.user-navigation-info .user:active {
   color: rgba(0, 0, 0, 0.3);
+}
+.user-navigation-info .logout {
+  position: absolute;
+  top: 14px;
+  right: 10px;
+}
+.user-navigation-info .logout::before {
+  content: "";
+
+  position: absolute;
+  top: 3px;
+  left: -26px;
+  width: 20px;
+  height: 17px;
+
+  background: url("../img/icon-logout.png") no-repeat;
+}
+.user-navigation-info .logout:hover::before {
+  background: url("../img/icon-logout-blue.png") no-repeat;
+}
+.user-navigation-info .logout:active::before {
+  background: url("../img/icon-logout.png") no-repeat;
 }
 
 
