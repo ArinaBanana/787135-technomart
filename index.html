@@ -106,37 +106,6 @@
             <div class="button-red-container button-red-full-width">
               <a href="#" class="button-red">Заблудились? Напишите нам!</a>
             </div>
-            <section class="popup-map">
-              <p>
-                <button type="button"><span class="visually-hidden">Закрыть</span></button>
-              </p>
-              <p>
-                <img src="img/big-map.jpg" alt="г. Санкт-Петербург, центральный район, ул. Б. Конюшенная, д. 19/8">
-              </p>
-            </section>
-            <section class="popup-form">
-               <form action="https://echo.htmlacademy.ru" method="post">
-                 <fieldset class="message-form">
-                   <legend>Введите Ваши контакты</legend>
-                   <p>
-                     <label for="name">Ваше имя:</label>
-                     <input type="text" placeholder="Имя Фамилия" id="name" name="user-name">
-                   </p>
-                   <p>
-                     <label for="mail">Ваш e-mail:</label>
-                     <input type="text" placeholder="email@example.com" id="mail" name="user-mail">
-                   </p>
-                   <p>
-                     <label for="message">Текст письма:</label>
-                     <textarea cols="30" rows="10" id="message" name="user-message" placeholder="В свободной форме"></textarea>
-                   </p>
-                   <p>
-                     <button type="submit">Отправить</button>
-                     <button type="button"><span class="visually-hidden">Закрыть</span></button>
-                   </p>
-                 </fieldset>
-               </form>
-            </section>
           </section>
         </div>
       </main>
@@ -212,5 +181,40 @@
           </div>
         </div>
       </footer>
+      <section class="popup-form">
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <fieldset class="message-form">
+            <legend class="visually-hidden">Введите Ваши контакты</legend>
+            <div class="message-form-wrapper">
+              <p class="message-form-name">
+                <label for="name">Ваше имя:</label>
+                <input type="text" placeholder="Имя Фамилия" id="name" name="user-name">
+              </p>
+              <p class="message-form-mail">
+                <label for="mail">Ваш e-mail:</label>
+                <input type="text" placeholder="email@example.com" id="mail" name="user-mail">
+              </p>
+              <p class="message-form-text">
+                <label for="message">Текст письма:</label>
+                <textarea cols="30" rows="10" id="message" name="user-message" placeholder="В свободной форме"></textarea>
+              </p>
+            </div>
+            <p>
+              <div class="button-send-wrapper">
+                <button class="button-send" type="submit">Отправить</button>
+              </div>
+                <button class="button-close" type="button"><span class="visually-hidden">Закрыть</span></button>
+              </p>
+          </fieldset>
+        </form>
+      </section>
+      <section class="popup-map">
+        <p>
+          <button class="button-close button-close-map" type="button"><span class="visually-hidden">Закрыть</span></button>
+        </p>
+        <p>
+          <img src="img/big-map.jpg" alt="г. Санкт-Петербург, центральный район, ул. Б. Конюшенная, д. 19/8">
+        </p>
+      </section>
   </body>
 </html>
