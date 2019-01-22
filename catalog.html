@@ -87,7 +87,7 @@
       <div class="container">
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
-            <a href="#">На главную</a>
+            <a class="breadcrumbs-item-home" href="#">На главную</a>
           </li>
           <li class="breadcrumbs-item">
             <a href="#">Каталог</a>
@@ -108,10 +108,22 @@
               <h2 class="product-filter-title">Фильтр:</h2>
             </div>
             <form action="https://echo.htmlacademy.ru" method="get" class="product-filter-form">
-              <!--<fieldset>-->
-                <!--<legend class="filter-legend">Цена:</legend>-->
-                <!--<input type="range" min="0" max="30000" step="1" value="15000">-->
-              <!--</fieldset>-->
+              <fieldset>
+                <legend class="filter-legend"> Цена: </legend>
+                <div class="range-controls">
+                  <div class="scale">
+                    <div class="bar">
+                    </div>
+                  </div>
+                  <div class="toggle min-toggle"></div>
+                  <div class="toggle max-toggle"></div>
+                </div>
+                <div class="price-controls">
+                  <input class="price price-min" type="text" name="price-min" value="0">
+                  <span> — </span>
+                  <input class="price price-max" type="text" name="price-max" value="30000">
+                </div>
+              </fieldset>
               <div class="fieldset-border">
                 <fieldset>
                   <legend class="filter-legend">Производители:</legend>
@@ -174,10 +186,10 @@
                  <a href="#">По функционалу</a>
                </li>
                <li class="catalog-sorting-item">
-                 <a href="#">Вверх</a>
+                 <a class="catalog-sorting-arrow-up catalog-sorting-arrow-active" href="#">Вверх</a>
                </li>
                <li class="catalog-sorting-item">
-                 <a href="#">Вниз</a>
+                 <a class="catalog-sorting-arrow-down" href="#">Вниз</a>
                </li>
              </ul>
            </div>
@@ -423,23 +435,26 @@
             <li>
               <a href="#">
                 <span class="visually-hidden">Вконтакте</span>
+                <div class="social-contacts-item social-contacts-vk"></div>
               </a>
             </li>
             <li>
               <a href="#">
                 <span class="visually-hidden">Фейсбук</span>
+                <div class="social-contacts-item social-contacts-facebook"></div>
               </a>
             </li>
             <li>
               <a href="#">
                 <span class="visually-hidden">Инстаграм</span>
+                <div class="social-contacts-item social-contacts-instagram"></div>
               </a>
             </li>
           </ul>
-          <p class="copyright">Обратная связь:
+          <p class="copyright">Обратная связь:<br>
             <a href="#">mail@htmlacademy.ru</a>
           </p>
-          <p class="copyright">Разработано —
+          <p class="copyright">Разработано —<br>
             <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
           </p>
         </div>

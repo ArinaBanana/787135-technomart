@@ -97,11 +97,11 @@
                  <div class="block-content-item-big slider">
                    <div class="slider-controls">
                      <label class="slider-controls-prev">
-                       <img src="img/icon-left.png">
+                       <img src="img/icon-left.png" width="22" height="40">
                        <button class="visually-hidden">Назад</button>
                      </label>
                      <label class="slider-controls-next">
-                       <img src="img/icon-right.png">
+                       <img src="img/icon-right.png" width="22" height="40">
                        <button class="visually-hidden">Вперед</button>
                      </label>
                    </div>
@@ -296,11 +296,17 @@
               <input class="visually-hidden button1" type="radio" name="service-switch" id="button-1" checked>
               <input class="visually-hidden button2" type="radio" name="service-switch" id="button-2">
               <input class="visually-hidden button3" type="radio" name="service-switch" id="button-3">
-              <div class="label-controls">
-                <label for="button-1"> Доставка </label>
-                <label for="button-2"> Гарантия </label>
-                <label for="button-3"> Кредит </label>
-              </div>
+              <ul class="label-controls">
+                <li>
+                  <label for="button-1"> Доставка </label>
+                </li>
+                <li>
+                  <label for="button-2"> Гарантия </label>
+                </li>
+                <li>
+                  <label for="button-3"> Кредит </label>
+                </li>
+              </ul>
               <div class="delivery-block">
                 <h3 class="block-name"> Доставка </h3>
                 <p class="delivery-content">
@@ -319,7 +325,7 @@
               <div class="credit-block">
                 <h3 class="block-name"> Кредит </h3>
                 <p class="credit-content"> Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь. </p>
-                <a href="#"> Отправить заявку </a>
+                <div class="button-red-container"><a class="button-red" href="#"> Отправить заявку </a></div>
               </div>
             </div>
           </div>
@@ -405,23 +411,26 @@
               <li>
                 <a href="#">
                   <span class="visually-hidden">Вконтакте</span>
+                  <div class="social-contacts-item social-contacts-vk"></div>
                 </a>
               </li>
               <li>
                 <a href="#">
                   <span class="visually-hidden">Фейсбук</span>
+                  <div class="social-contacts-item social-contacts-facebook"></div>
                 </a>
               </li>
               <li>
                 <a href="#">
                   <span class="visually-hidden">Инстаграм</span>
+                  <div class="social-contacts-item social-contacts-instagram"></div>
                 </a>
               </li>
              </ul>
-              <p class="copyright">Обратная связь:
+              <p class="copyright">Обратная связь:<br>
                 <a href="#">mail@htmlacademy.ru</a>
               </p>
-              <p class="copyright">Разработано —
+              <p class="copyright">Разработано —<br>
                 <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
               </p>
           </div>
@@ -463,7 +472,7 @@
           <button class="button-close button-close-map" type="button"><span class="visually-hidden">Закрыть</span></button>
         </p>
         <p>
-          <img src="img/big-map.jpg" alt="г. Санкт-Петербург, центральный район, ул. Б. Конюшенная, д. 19/8">
+          <img src="img/big-map.jpg" width="940" height="446" alt="г. Санкт-Петербург, центральный район, ул. Б. Конюшенная, д. 19/8">
         </p>
       </section>
   </body>
