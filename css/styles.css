@@ -1170,6 +1170,8 @@ input[type="radio"].visually-hidden {
   top: 201px;
   left: 289px;
 
+  z-index: 9999;
+
   display: none;
 }
 .message-form {
