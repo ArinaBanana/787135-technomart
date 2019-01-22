@@ -1146,6 +1146,8 @@ input[type="radio"].visually-hidden {
 .message-form-text textarea:focus {
   border: 2px solid #ee3643;
 }
+
+
 .popup-map {
   box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
 
@@ -1163,6 +1165,83 @@ input[type="radio"].visually-hidden {
 }
 .popup-map img {
   vertical-align: middle;
+}
+
+
+.popup-notification {
+  box-shadow: 0px 20px 40px 0 rgba(41, 52, 73, 0.75);
+  background-color: #ffffff;
+  border-top: 7px solid #ee3643;
+  font-size: 30px;
+  line-height: 30px;
+
+  position: fixed;
+  top: 411px;
+  left: 50%;
+  right: 50%;
+  margin-left: -290px;
+  width: 620px;
+  height: 282px;
+  z-index: 9999;
+
+  display: none;
+}
+.popup-notification-text {
+  position: relative;
+  margin: 75px 125px 70px 179px;
+}
+.popup-notification-text::before {
+  content: "";
+
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  top: -20px;
+  left: -100px;
+  margin-right: 32px;
+
+  background: url("../img/icon-mark.svg") no-repeat;
+}
+.popup-notification-wrapper {
+  background-color: #f1f1f1;
+  height: 100px;
+
+  padding-top: 30px;
+  padding-left: 80px;
+}
+.button-check {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #ee3643;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+
+  display: inline-block;
+  width: 220px;
+  height: 38px;
+  margin-right: 20px;
+  padding-top: 11px;
+}
+.button-check:hover {
+  background-color: #ca2c37;
+}
+.button-check:active {
+  background-color: #ba2732;
+}
+.button-continue {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: none;
+
+  display: inline-block;
+  width: 220px;
+  height: 38px;
 }
 
 
@@ -1184,7 +1263,7 @@ input[type="radio"].visually-hidden {
   position: absolute;
 
   width: 19px;
-  height: 4px;
+  height: 3px;
   top: 9px;
   left: 1px;
 

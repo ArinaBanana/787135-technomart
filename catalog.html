@@ -108,6 +108,10 @@
               <h2 class="product-filter-title">Фильтр:</h2>
             </div>
             <form action="https://echo.htmlacademy.ru" method="get" class="product-filter-form">
+              <!--<fieldset>-->
+                <!--<legend class="filter-legend">Цена:</legend>-->
+                <!--<input type="range" min="0" max="30000" step="1" value="15000">-->
+              <!--</fieldset>-->
               <div class="fieldset-border">
                 <fieldset>
                   <legend class="filter-legend">Производители:</legend>
@@ -354,18 +358,6 @@
           </p>
         </div>
       </section>
-     <section class="popup-notification">
-       <p>Товар добавлен в корзину!</p>
-       <p>
-        <a href="#">Оформить заказ</a>
-       </p>
-       <p>
-         <button type="button">Продолжить покупки</button>
-         <button type="button">
-           <span class="visually-hidden">Закрыть</span>
-         </button>
-       </p>
-     </section>
     </main>
     <footer class="main-footer">
       <div class="main-footer-content container">
@@ -439,5 +431,16 @@
         </div>
       </div>
     </footer>
+    <section class="popup-notification">
+      <p class="popup-notification-text">Товар добавлен в корзину!</p>
+      <div class="popup-notification-wrapper">
+        <a class="button-check" href="#">Оформить заказ</a>
+        <button class="button-continue" type="button">Продолжить покупки</button>
+      </div>
+        <button class="button-close" type="button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+      </p>
+    </section>
   </body>
 </html>
