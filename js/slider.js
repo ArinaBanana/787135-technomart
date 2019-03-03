@@ -25,3 +25,13 @@ buttonPrev.addEventListener('click', function (event) {
     translateX(sliderList, currentIndex)
   }
 });
+
+var buttonDisplay = document.querySelector('#active')
+console.log(buttonDisplay)
+var modalDisplay = document.querySelector('#active-section')
+var buttonClose = document.querySelector('.button-close')
+
+buttonDisplay.addEventListener('click', function (event) {
+  event.preventDefault()
+  modalDisplay.style.display = 'block'
+})
